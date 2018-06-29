@@ -1,0 +1,27 @@
+{
+    "short_name": "Dashboard",
+    "name": "Dashboard System",
+    "description": "A simply dashboard system",
+    "start_url": "./pages/login.html",
+    "display": "standalone",
+    "orientation": "landscape",
+    "background_color": "#FFFFFF",
+    "theme_color": "#CCCCCC",
+    "icons": [
+        {
+            "src": "./assets/img/brand/dashboard_32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "./assets/img/brand/dashboard_128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./assets/img/brand/dashboard_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

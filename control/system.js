@@ -1,0 +1,30 @@
+
+var ctx = document.getElementById("myChart");
+if (ctx) {
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            datasets: [{
+                data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+                lineTension: 1,
+                backgroundColor: 'green',
+                borderColor: 'yellow',
+                borderWidth: 10,
+                pointBackgroundColor: 'yellow'
+            }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: false
+                    }
+                }]
+            },
+            legend: {
+                display: true,
+            }
+        }
+    });
+}
